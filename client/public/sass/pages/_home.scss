@@ -1,3 +1,8 @@
+#navigation-bar {
+    position: fixed;
+    z-index: 1000 !important;
+}
+
 #hero {
     
     text-align: center;
@@ -11,6 +16,22 @@
     position: relative;
     padding: 1rem 3rem;
     z-index: 1.8;
+    text-align: center;
+
+}
+
+#code-blog {
+    position: relative;
+    padding: 1rem 3rem;
+    z-index: 1.7;
+    text-align: center;
+
+}
+
+#life-blog {
+    position: relative;
+    padding: 1rem 3rem;
+    z-index: 1.7;
     text-align: center;
 
 }
