@@ -1,0 +1,20 @@
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    background-color: RGB(0, 104, 71) !important;
+    background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
+    overflow-x: hidden;
+}

@@ -1,139 +1,129 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 body {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 62.5%;
-    position: relative;
-    background-color: RGB(0, 104, 71) !important;
-    background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
-    
-}
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  background-color: RGB(0, 104, 71) !important;
+  background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
+  overflow-x: hidden; }
+
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.7; }
 
 .heading_primary {
-    color: #fffaff;
-    font-size: 6rem; 
-    white-space: nowrap;
-
-}
+  color: #fffaff;
+  font-size: 6rem;
+  white-space: nowrap; }
 
 .heading_secondary {
-    color: #fffaff;
-    font-size: 4rem;
-}
+  color: #fffaff;
+  font-size: 4rem; }
 
 .heading_tertiary {
-    color: #fffaff;
-    font-size: 1.5rem;
-    display: inline;
-}
+  color: #fffaff;
+  font-size: 1.5rem;
+  display: inline; }
 
 .heading_huge {
-    font-size: 15rem;
-    opacity: .3;
-    color: #fffaff;
-}
+  font-size: 15rem;
+  opacity: .3;
+  color: #fffaff; }
 
-.coat-of-arms {
-    position: fixed;
-    left: 50%;
-    top: 60%;
-    transform: translate(-50%, -50%);
-    opacity: 0.3;
-    width: 80%;
-    z-index: 0.3;
-}
+.u-center-text {
+  text-align: center !important; }
 
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important; }
 
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important; }
 
-nav {
-    background-color: rgba(255, 250, 255, 0.7) !important;
-}
-
-#navigation-bar {
-    position: fixed;
-}
-
-#hero {
-    
-    text-align: center;
-    position: relative;
-    z-index: 1.9;
-    height: 95vh;
-
-}
-
-#about {
-    position: relative;
-    padding: 1rem 3rem;
-    z-index: 1.8;
-    text-align: center;
-}
-
-.about-box {
-    z-index: 5;
-    text-align: center;
-}
-
-.about_heading {
-    padding: 3rem;
-    position: absolute;
-    top: -6.5rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    white-space: nowrap;
-}
-
-.title-card {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    text-align: center !important;
-    transform: translate(-50%, -50%);
-    background-color:RGBA(206, 17, 39, 0.9);
-    padding: 10rem 5rem;
-    opacity: .8;
-    border-radius: 1rem;
-    z-index: 3;
-    width: 50%;
-}
-
-.card-deck {
-    margin: 3rem auto 1rem;
-}
-
-.card {
-    border-radius: 1rem !important;
-    padding: 1rem;
-    opacity: .9;
-    margin: 0 auto 2rem;
-    background-color: #fffaff;
-    z-index: 10;
-    text-align: center;
-}
-
-.card_heading {
-    padding: 1rem;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    text-align: center;
-    white-space: nowrap;
-}
-
-.card-image {
-    width: 100%;
-}
+.u-margin-bottom-big {
+  margin-bottom: 6rem !important; }
 
 .link-style {
-    text-decoration: none !important;
-    color: #fffaff;
+  text-decoration: none !important;
+  color: #fffaff; }
 
-    &:hover {
-        color: black;
-    }
-}
+.about-box {
+  z-index: 5;
+  text-align: center; }
+
+.about_heading {
+  padding: 3rem;
+  position: absolute;
+  top: -6.5rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap; }
+
+.card-deck {
+  margin: 3rem auto 1rem; }
+
+.card {
+  border-radius: 1rem !important;
+  padding: 1rem;
+  opacity: .9;
+  margin: 0 auto 2rem;
+  background-color: #fffaff;
+  z-index: 10;
+  text-align: center; }
+
+.card_heading {
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap; }
+
+.card-image {
+  width: 100%; }
+
+.coat-of-arms {
+  position: fixed;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  opacity: 0.3;
+  width: 80%;
+  z-index: 0.3; }
+
+nav {
+  background-color: rgba(255, 250, 255, 0.7) !important; }
+
+#navigation-bar {
+  position: fixed; }
+
+.title-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center !important;
+  transform: translate(-50%, -50%);
+  background-color: RGBA(206, 17, 39, 0.9);
+  padding: 10rem 5rem;
+  opacity: .8;
+  border-radius: 1rem;
+  z-index: 3;
+  width: 50%; }
+
+#hero {
+  text-align: center;
+  position: relative;
+  z-index: 1.9;
+  height: 95vh; }
+
+#about {
+  position: relative;
+  padding: 1rem 3rem;
+  z-index: 1.8;
+  text-align: center; }

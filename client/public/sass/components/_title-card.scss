@@ -1,0 +1,13 @@
+.title-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center !important;
+    transform: translate(-50%, -50%);
+    background-color:RGBA(206, 17, 39, 0.9);
+    padding: 10rem 5rem;
+    opacity: .8;
+    border-radius: 1rem;
+    z-index: 3;
+    width: 50%;
+}

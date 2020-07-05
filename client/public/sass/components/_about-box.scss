@@ -1,0 +1,39 @@
+.about-box {
+    z-index: 5;
+    text-align: center;
+}
+
+.about_heading {
+    padding: 3rem;
+    position: absolute;
+    top: -6.5rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.card-deck {
+    margin: 3rem auto 1rem;
+}
+
+.card {
+    border-radius: 1rem !important;
+    padding: 1rem;
+    opacity: .9;
+    margin: 0 auto 2rem;
+    background-color: #fffaff;
+    z-index: 10;
+    text-align: center;
+}
+
+.card_heading {
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.card-image {
+    width: 100%;
+}
